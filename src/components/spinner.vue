@@ -29,6 +29,8 @@ export default {
 	color:#828282;
 	font-size:17px;
 	font-weight: 700;
+	margin:18px 5px;
+
 }
 #floatingBarsG{
 	position:relative;

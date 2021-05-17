@@ -1,8 +1,8 @@
 <template>
   <article  class="card">
   <div class="card-info">
-  <h2 >{name}</h2>
-  <h2 class="h2-low_emphasis"> {specie} from {planeta}</h2>
+  <h2 >{{people.name}}</h2>
+  <h2 class="h2-low_emphasis"> {{people.species ? people.species.name : 'Human'}} from {{people.homeworld.name}}</h2>
   </div>
   <p> > </p>
   </article>
@@ -11,6 +11,7 @@
 <script scoped>
   export default {
   name:'Card',
+  props: ['people']
 }
 </script>
 
