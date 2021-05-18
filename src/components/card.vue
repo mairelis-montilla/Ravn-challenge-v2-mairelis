@@ -8,20 +8,22 @@
   </article>
 </template>
 
-<script scoped>
+<script >
   export default {
   name:'Card',
   props: ['people']
 }
 </script>
 
-<style >
+<style scoped>
 .card{
+  cursor: pointer;
   display:flex;
   margin: 0;
   width: 375px;
   height: 59px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 .card-info{
   padding:5px;

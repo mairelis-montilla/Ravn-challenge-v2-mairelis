@@ -23,7 +23,8 @@ export default {
 <style scoped>
 .spinner{
 	display:flex;
-	justify-content:center;
+	justify-content:flex-start;
+	margin: 1px 100px;
 }
 .low-emphasis{
 	color:#828282;

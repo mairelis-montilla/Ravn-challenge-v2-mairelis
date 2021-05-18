@@ -1,7 +1,7 @@
 <template>
 <section class="header-container">
 <h2>
-People of Start Wars
+Ravn Start Wars Registry
 </h2>
 
 </section>
@@ -17,7 +17,7 @@ People of Start Wars
 <style scoped>
 .header-container{
   background-color:#121212;
-  height: 90px;
+  height: 52px;
   position:relative;
   top:-8px;
   left:-8px;
@@ -25,10 +25,8 @@ People of Start Wars
 }
 .header-container >h2{
   color:white;
-  display:flex;
-  justify-content:center;
   font-size:17px;
   margin: 0;
-  padding:30px;
+  padding:15px;
 }
 </style>
