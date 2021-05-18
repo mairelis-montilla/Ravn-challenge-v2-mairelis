@@ -130,6 +130,7 @@ export default {
 .error{
   color:#EC5757;
   font-size:17px;
+  width:375px;
 }
 .container-center{
   width:100%;

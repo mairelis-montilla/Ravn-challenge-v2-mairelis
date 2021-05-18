@@ -66,7 +66,7 @@ font-size:17px;
   justify-content:space-between;
   margin:2px 10px;
   padding:5px 25px;
-  width:1100px;
+  width:850px;
   height:48px;
 }
 
